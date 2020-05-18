@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-09T08:41:32.257Z",
+        "line": 3,
+        "name": "IKEA add to cart",
+        "description": "",
+        "id": "ikea-login;ikea-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27399070838,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch Browser",
+            "match": {
+              "location": "StepDefinition.launch_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14648939127,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "load the url",
+            "match": {
+              "location": "StepDefinition.load_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32604679934,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate through Pages",
+            "match": {
+              "location": "StepDefinition.navigate_through_Pages()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49374770148,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "add to cart page",
+            "match": {
+              "location": "StepDefinition.add_to_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d81.0.4044.138)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HP\u0027, ip: \u0027192.168.0.105\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\Yamini\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 28775f8e0878ae935a56de5cdd5ab113\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.step.StepDefinition.delivery_address(StepDefinition.java:77)\r\n\tat ✽.Delivery address(file:src/test/resources/FeaturesFolder/ikea.feature:8)\r\n",
+              "duration": 2494124746,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Delivery address",
+            "match": {
+              "location": "StepDefinition.delivery_address()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "IKEA Login",
+    "description": "",
+    "id": "ikea-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeaturesFolder/ikea.feature",
+    "tags": []
+  }
+]
